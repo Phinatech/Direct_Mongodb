@@ -1,5 +1,6 @@
 import express, { Application } from "express";
 import { MainApp } from "./App";
+import "./Config/dbConfig";
 
 const app: Application = express();
 const Port = 2267;
