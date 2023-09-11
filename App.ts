@@ -13,7 +13,7 @@ export const MainApp = (app: Application) => {
     app.get("/", (req: Request, res: Response) => {
       try {
         res.status(200).json({
-          message: "Server is U p and running",
+          message: "Server is Up and running",
         });
       } catch (error) {
         res.status(404).json({
